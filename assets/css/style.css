@@ -1,0 +1,118 @@
+
+/*General*/
+/*----------------------*/
+
+* {
+	box-sizing:border-box;
+}
+
+
+body {
+	line-height:34px;
+	/*background: url('../images/background.jpg');*/
+}
+
+.container {
+	display: flex;
+	flex-direction:row;
+}
+/*----------------------
+
+H1
+
+================================================================================
+================================================================================
+*/
+
+h1 {
+
+	background: url('../images/background.jpg');
+	font-family:verdana;
+	font-size:24px;
+	color:#010101;
+	width:30%;
+	margin-top:20px;
+	margin-bottom:20px;
+	margin-left:10px;
+	text-align:center;
+	
+}
+
+
+
+
+/*----------------------
+
+The paragraphs row
+
+================================================================================
+================================================================================
+*/
+
+.paragraphs {
+	/*background-color: rgba(255,255,255,0.5);*/
+
+	background: url('../images/background.jpg');
+	color:#010101;
+	width:60%;
+	padding:10px;
+	margin-bottom:20px;
+	margin-left:10px;
+
+}
+
+#random {
+	background: url('../images/background.jpg');
+	font-size:20px;
+	padding-bottom:60px;
+	padding-left:5px;
+	width:30%;
+	height:82px;
+	margin-bottom:20px;
+	margin-left:10px;
+
+}
+
+.blue {
+	background: url('../images/background.jpg');
+	width:10%;
+	height:82px;
+	padding:5px;
+	margin-left:10px; 
+	padding-bottom:20px;
+}
+
+.crystals {
+	margin-left:10px;
+}
+
+img {
+	margin-right:10px;
+}
+
+button {
+	background-color:transparent;
+	margin-right:10px;
+	border:none;
+}
+
+.score {
+
+	background: url('../images/background.jpg');
+	color:#010101;
+	width:30%;
+	margin-bottom:20px;
+	margin-left:10px;
+
+	border:3px solid #fff;
+
+}
+
+.zero {
+	background: url('../images/background.jpg');
+	color:#010101;
+	width:30%;
+	margin-left:10px;
+	border:3px solid #fff;
+	padding-bottom:60px;
+}
